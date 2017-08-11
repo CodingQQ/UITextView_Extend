@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924F7FF41F3D4297004A0212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F7FF31F3D4297004A0212 /* main.m */; };
+		924F7FF71F3D4298004A0212 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F7FF61F3D4298004A0212 /* AppDelegate.m */; };
+		924F7FFA1F3D4299004A0212 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F7FF91F3D4299004A0212 /* ViewController.m */; };
+		924F7FFD1F3D429A004A0212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924F7FFB1F3D429A004A0212 /* Main.storyboard */; };
+		924F7FFF1F3D429A004A0212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924F7FFE1F3D429A004A0212 /* Assets.xcassets */; };
+		924F80021F3D429B004A0212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924F80001F3D429B004A0212 /* LaunchScreen.storyboard */; };
+		924F800D1F3D429E004A0212 /* UITextView_ExtendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F800C1F3D429E004A0212 /* UITextView_ExtendTests.m */; };
+		924F80181F3D429E004A0212 /* UITextView_ExtendUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F80171F3D429E004A0212 /* UITextView_ExtendUITests.m */; };
+		924F80271F3D42E7004A0212 /* UITextView_Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F80261F3D42E7004A0212 /* UITextView_Extend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924F80091F3D429E004A0212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924F7FE71F3D4296004A0212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924F7FEE1F3D4296004A0212;
+			remoteInfo = UITextView_Extend;
+		};
+		924F80141F3D429E004A0212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924F7FE71F3D4296004A0212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924F7FEE1F3D4296004A0212;
+			remoteInfo = UITextView_Extend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924F7FEF1F3D4296004A0212 /* UITextView_Extend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextView_Extend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F7FF31F3D4297004A0212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		924F7FF51F3D4298004A0212 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		924F7FF61F3D4298004A0212 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		924F7FF81F3D4298004A0212 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		924F7FF91F3D4299004A0212 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		924F7FFC1F3D429A004A0212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		924F7FFE1F3D429A004A0212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924F80011F3D429B004A0212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		924F80031F3D429B004A0212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924F80081F3D429E004A0212 /* UITextView_ExtendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextView_ExtendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F800C1F3D429E004A0212 /* UITextView_ExtendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextView_ExtendTests.m; sourceTree = "<group>"; };
+		924F800E1F3D429E004A0212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924F80131F3D429E004A0212 /* UITextView_ExtendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextView_ExtendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F80171F3D429E004A0212 /* UITextView_ExtendUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextView_ExtendUITests.m; sourceTree = "<group>"; };
+		924F80191F3D429E004A0212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924F80251F3D42E7004A0212 /* UITextView_Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextView_Extend.h; sourceTree = "<group>"; };
+		924F80261F3D42E7004A0212 /* UITextView_Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextView_Extend.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924F7FEC1F3D4296004A0212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F80051F3D429E004A0212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F80101F3D429E004A0212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924F7FE61F3D4296004A0212 = {
+			isa = PBXGroup;
+			children = (
+				924F7FF11F3D4297004A0212 /* UITextView_Extend */,
+				924F800B1F3D429E004A0212 /* UITextView_ExtendTests */,
+				924F80161F3D429E004A0212 /* UITextView_ExtendUITests */,
+				924F7FF01F3D4296004A0212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924F7FF01F3D4296004A0212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924F7FEF1F3D4296004A0212 /* UITextView_Extend.app */,
+				924F80081F3D429E004A0212 /* UITextView_ExtendTests.xctest */,
+				924F80131F3D429E004A0212 /* UITextView_ExtendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924F7FF11F3D4297004A0212 /* UITextView_Extend */ = {
+			isa = PBXGroup;
+			children = (
+				924F7FF51F3D4298004A0212 /* AppDelegate.h */,
+				924F7FF61F3D4298004A0212 /* AppDelegate.m */,
+				924F7FF81F3D4298004A0212 /* ViewController.h */,
+				924F7FF91F3D4299004A0212 /* ViewController.m */,
+				924F80251F3D42E7004A0212 /* UITextView_Extend.h */,
+				924F80261F3D42E7004A0212 /* UITextView_Extend.m */,
+				924F7FFB1F3D429A004A0212 /* Main.storyboard */,
+				924F7FFE1F3D429A004A0212 /* Assets.xcassets */,
+				924F80001F3D429B004A0212 /* LaunchScreen.storyboard */,
+				924F80031F3D429B004A0212 /* Info.plist */,
+				924F7FF21F3D4297004A0212 /* Supporting Files */,
+			);
+			path = UITextView_Extend;
+			sourceTree = "<group>";
+		};
+		924F7FF21F3D4297004A0212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				924F7FF31F3D4297004A0212 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		924F800B1F3D429E004A0212 /* UITextView_ExtendTests */ = {
+			isa = PBXGroup;
+			children = (
+				924F800C1F3D429E004A0212 /* UITextView_ExtendTests.m */,
+				924F800E1F3D429E004A0212 /* Info.plist */,
+			);
+			path = UITextView_ExtendTests;
+			sourceTree = "<group>";
+		};
+		924F80161F3D429E004A0212 /* UITextView_ExtendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				924F80171F3D429E004A0212 /* UITextView_ExtendUITests.m */,
+				924F80191F3D429E004A0212 /* Info.plist */,
+			);
+			path = UITextView_ExtendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924F7FEE1F3D4296004A0212 /* UITextView_Extend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924F801C1F3D429E004A0212 /* Build configuration list for PBXNativeTarget "UITextView_Extend" */;
+			buildPhases = (
+				924F7FEB1F3D4296004A0212 /* Sources */,
+				924F7FEC1F3D4296004A0212 /* Frameworks */,
+				924F7FED1F3D4296004A0212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextView_Extend;
+			productName = UITextView_Extend;
+			productReference = 924F7FEF1F3D4296004A0212 /* UITextView_Extend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		924F80071F3D429E004A0212 /* UITextView_ExtendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924F801F1F3D429E004A0212 /* Build configuration list for PBXNativeTarget "UITextView_ExtendTests" */;
+			buildPhases = (
+				924F80041F3D429E004A0212 /* Sources */,
+				924F80051F3D429E004A0212 /* Frameworks */,
+				924F80061F3D429E004A0212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924F800A1F3D429E004A0212 /* PBXTargetDependency */,
+			);
+			name = UITextView_ExtendTests;
+			productName = UITextView_ExtendTests;
+			productReference = 924F80081F3D429E004A0212 /* UITextView_ExtendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		924F80121F3D429E004A0212 /* UITextView_ExtendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924F80221F3D429E004A0212 /* Build configuration list for PBXNativeTarget "UITextView_ExtendUITests" */;
+			buildPhases = (
+				924F800F1F3D429E004A0212 /* Sources */,
+				924F80101F3D429E004A0212 /* Frameworks */,
+				924F80111F3D429E004A0212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924F80151F3D429E004A0212 /* PBXTargetDependency */,
+			);
+			name = UITextView_ExtendUITests;
+			productName = UITextView_ExtendUITests;
+			productReference = 924F80131F3D429E004A0212 /* UITextView_ExtendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924F7FE71F3D4296004A0212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LeeQQ;
+				TargetAttributes = {
+					924F7FEE1F3D4296004A0212 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					924F80071F3D429E004A0212 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 924F7FEE1F3D4296004A0212;
+					};
+					924F80121F3D429E004A0212 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 924F7FEE1F3D4296004A0212;
+					};
+				};
+			};
+			buildConfigurationList = 924F7FEA1F3D4296004A0212 /* Build configuration list for PBXProject "UITextView_Extend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924F7FE61F3D4296004A0212;
+			productRefGroup = 924F7FF01F3D4296004A0212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924F7FEE1F3D4296004A0212 /* UITextView_Extend */,
+				924F80071F3D429E004A0212 /* UITextView_ExtendTests */,
+				924F80121F3D429E004A0212 /* UITextView_ExtendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924F7FED1F3D4296004A0212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F80021F3D429B004A0212 /* LaunchScreen.storyboard in Resources */,
+				924F7FFF1F3D429A004A0212 /* Assets.xcassets in Resources */,
+				924F7FFD1F3D429A004A0212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F80061F3D429E004A0212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F80111F3D429E004A0212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924F7FEB1F3D4296004A0212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F7FFA1F3D4299004A0212 /* ViewController.m in Sources */,
+				924F7FF71F3D4298004A0212 /* AppDelegate.m in Sources */,
+				924F7FF41F3D4297004A0212 /* main.m in Sources */,
+				924F80271F3D42E7004A0212 /* UITextView_Extend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F80041F3D429E004A0212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F800D1F3D429E004A0212 /* UITextView_ExtendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924F800F1F3D429E004A0212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924F80181F3D429E004A0212 /* UITextView_ExtendUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924F800A1F3D429E004A0212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924F7FEE1F3D4296004A0212 /* UITextView_Extend */;
+			targetProxy = 924F80091F3D429E004A0212 /* PBXContainerItemProxy */;
+		};
+		924F80151F3D429E004A0212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924F7FEE1F3D4296004A0212 /* UITextView_Extend */;
+			targetProxy = 924F80141F3D429E004A0212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		924F7FFB1F3D429A004A0212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924F7FFC1F3D429A004A0212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		924F80001F3D429B004A0212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924F80011F3D429B004A0212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924F801A1F3D429E004A0212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		924F801B1F3D429E004A0212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924F801D1F3D429E004A0212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UITextView_Extend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeQQ.UITextView-Extend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		924F801E1F3D429E004A0212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UITextView_Extend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeQQ.UITextView-Extend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		924F80201F3D429E004A0212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITextView_ExtendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeQQ.UITextView-ExtendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextView_Extend.app/UITextView_Extend";
+			};
+			name = Debug;
+		};
+		924F80211F3D429E004A0212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITextView_ExtendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeQQ.UITextView-ExtendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextView_Extend.app/UITextView_Extend";
+			};
+			name = Release;
+		};
+		924F80231F3D429E004A0212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITextView_ExtendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeQQ.UITextView-ExtendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITextView_Extend;
+			};
+			name = Debug;
+		};
+		924F80241F3D429E004A0212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITextView_ExtendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeQQ.UITextView-ExtendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITextView_Extend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924F7FEA1F3D4296004A0212 /* Build configuration list for PBXProject "UITextView_Extend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F801A1F3D429E004A0212 /* Debug */,
+				924F801B1F3D429E004A0212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924F801C1F3D429E004A0212 /* Build configuration list for PBXNativeTarget "UITextView_Extend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F801D1F3D429E004A0212 /* Debug */,
+				924F801E1F3D429E004A0212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		924F801F1F3D429E004A0212 /* Build configuration list for PBXNativeTarget "UITextView_ExtendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F80201F3D429E004A0212 /* Debug */,
+				924F80211F3D429E004A0212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		924F80221F3D429E004A0212 /* Build configuration list for PBXNativeTarget "UITextView_ExtendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924F80231F3D429E004A0212 /* Debug */,
+				924F80241F3D429E004A0212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924F7FE71F3D4296004A0212 /* Project object */;
+}
