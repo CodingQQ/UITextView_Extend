@@ -13,7 +13,7 @@
 /**
  *  占位文字
  */
-@property(nonatomic, strong) NSString *placeholder;
+@property(nonatomic, copy) NSString *placeholder;
 /**
  *  占位文字 颜色
  */
