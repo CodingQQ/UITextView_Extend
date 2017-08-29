@@ -20,6 +20,7 @@
 /** 创建TextView的时候，指定的高度 */
 @property (nonatomic,assign)CGFloat originalH;
 @end
+
 @implementation UITextView_Extend
 
 
